@@ -26,6 +26,20 @@
       echo(rand(10,30));//random number between 10 and 30
       echo('<br>');
 
+      //date functions
+      date_default_timezone_set("Asia/Dhaka");
+      echo "Today is " . date("Y/m/d") . "<br>";
+      echo "Today is " . date("d/m/Y") . "<br>";
+      echo "Today is " . date("Y.m.d") . "<br>";
+      echo "Today is " . date("Y-m-d") . "<br>";
+      echo "Today is " . date("d-m-Y") . "<br>";
+      echo "Today is " . date("l") . "<br>";
+      echo "The time is " . date("h:i:sa") . "<br>";
+      echo "The time is " . date("H:i:s") . "<br>";
+      echo "The time is " . date("g:i a") . "<br>";
+      echo "The time is " . date("g:i A") . "<br>";
+    
+
       
 
     ?> 
